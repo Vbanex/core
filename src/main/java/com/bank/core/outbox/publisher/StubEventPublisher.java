@@ -2,9 +2,9 @@ package com.bank.core.outbox.publisher;
 
 import com.bank.core.outbox.entity.OutboxMessage;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.springframework.stereotype.Component;
+//import org.springframework.stereotype.Component;
 
-@Component
+//@Component("stubPublisher")
 public class StubEventPublisher
         implements EventPublisher {
 
